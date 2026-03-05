@@ -1,0 +1,12 @@
+antivm_queries_computername;Queries for the computername;1;
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+has_pdb;This executable has a PDB path;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antisandbox_foregroundwindows;Checks whether any human activity is being performed by constantly checking whether the foreground window changed;2;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+antivm_disk_size;Queries the disk size which could be used to detect virtual machine with small fixed size or dynamic allocation;2;
+creates_shortcut;Creates a shortcut to an executable file;2;
+network_irc;Connects to an IRC server, possibly part of a botnet;3;
+creates_largekey;Creates or sets a registry key to a long series of bytes, possibly to store a binary or malware config;3;
+network_icmp;Generates some ICMP traffic;4;

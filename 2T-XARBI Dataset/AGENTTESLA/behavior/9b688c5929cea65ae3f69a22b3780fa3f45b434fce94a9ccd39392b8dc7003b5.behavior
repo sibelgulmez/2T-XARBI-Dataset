@@ -1,0 +1,6 @@
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+raises_exception;One or more processes crashed;1;
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

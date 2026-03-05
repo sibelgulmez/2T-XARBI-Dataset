@@ -1,0 +1,9 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+has_pdb;This executable has a PDB path;1;
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+dumped_buffer2;One or more of the buffers contains an embedded PE file;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;

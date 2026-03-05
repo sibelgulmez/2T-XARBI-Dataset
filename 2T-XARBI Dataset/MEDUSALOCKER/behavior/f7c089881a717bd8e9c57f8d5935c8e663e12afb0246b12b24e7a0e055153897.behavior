@@ -1,0 +1,17 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+spreading_autoruninf;Creates an autorun.inf file;2;
+creates_shortcut;Creates a shortcut to an executable file;2;
+injection_process_search;Searches running processes potentially to identify processes for sandbox evasion, code injection or memory dumping;2;
+antidbg_devices;Checks for the presence of known devices from debuggers and forensic tools;3;
+antisandbox_cuckoo_files;Attempts to detect Cuckoo Sandbox through the presence of a file;3;
+trojan_dapato;Creates known Dapato Trojan files, registry keys and/or mutexes;3;
+dyreza;Creates known Dyreza Banking Trojan files, registry keys and/or mutexes;3;
+rat_hupigon;Creates known Hupigon files, registry keys and/or mutexes;3;
+modify_uac_prompt;Attempts to modify UAC prompt behavior;3;
+ransomware_extensions;Appends a known multi-family ransomware file extension to files that have been encrypted;3;
+upatre;Creates known Upatre files, registry keys and/or mutexes;3;
+network_icmp;Generates some ICMP traffic;4;
+disables_security;Disables Windows Security features;4;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

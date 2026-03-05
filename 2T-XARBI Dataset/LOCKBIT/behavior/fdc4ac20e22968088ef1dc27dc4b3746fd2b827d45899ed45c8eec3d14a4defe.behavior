@@ -1,0 +1,16 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+generates_crypto_key;Uses Windows APIs to generate a cryptographic key;1;
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antivm_disk_size;Queries the disk size which could be used to detect virtual machine with small fixed size or dynamic allocation;2;
+suspicious_process;Creates a suspicious process;2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+nolookup_communication;Communicates with host for which no DNS query was performed;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;
+suspicious_powershell;Creates a suspicious Powershell process;3;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

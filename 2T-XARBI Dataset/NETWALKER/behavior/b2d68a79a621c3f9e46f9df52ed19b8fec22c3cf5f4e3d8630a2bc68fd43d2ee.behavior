@@ -1,0 +1,10 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+pe_unknown_resource_name;The file contains an unknown PE resource name possibly indicative of a packer;1;
+raises_exception;One or more processes crashed;1;
+creates_doc;Creates (office) documents on the filesystem;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+antisandbox_cuckoo_files;Attempts to detect Cuckoo Sandbox through the presence of a file;3;
+ransomware_message;Writes a potential ransom message to disk;3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;

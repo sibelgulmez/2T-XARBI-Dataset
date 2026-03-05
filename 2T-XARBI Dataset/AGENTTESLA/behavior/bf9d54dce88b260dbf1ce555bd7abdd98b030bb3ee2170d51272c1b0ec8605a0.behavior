@@ -1,0 +1,9 @@
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+process_interest;Expresses interest in specific running processes;2;
+antidbg_windows;Checks for the presence of known windows from debuggers and forensic tools;3;
+antivm_generic_bios;Checks the version of Bios, possibly for anti-virtualization;3;
+antivm_firmware;Detects Virtual Machines through their custom firmware;3;
+antivm_vmware_in_instruction;Detects VMWare through the in instruction feature;3;

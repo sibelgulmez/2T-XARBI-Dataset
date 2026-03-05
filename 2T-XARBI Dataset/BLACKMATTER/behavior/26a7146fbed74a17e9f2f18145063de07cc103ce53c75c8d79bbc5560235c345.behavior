@@ -1,0 +1,3 @@
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

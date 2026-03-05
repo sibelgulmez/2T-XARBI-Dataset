@@ -1,0 +1,12 @@
+console_output;Command line console output was observed;1;
+raises_exception;One or more processes crashed;1;
+suspicious_process;Creates a suspicious process;2;
+stealth_window;A process created a hidden window;2;
+injection_process_search;Searches running processes potentially to identify processes for sandbox evasion, code injection or memory dumping;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+ransomware_file_moves;Performs 91 file moves indicative of a ransomware file encryption process;3;
+ransomware_appends_extensions;Appends a new file extension or content to 91 files indicative of a ransomware file encryption process;3;
+ransomware_dropped_files;Drops 74 unknown file mime types indicative of ransomware writing encrypted files back to disk;3;
+ransomware_shadowcopy;Removes the Shadow Copy to avoid recovery of the system;3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;
+banker_zeus_p2p;Zeus P2P (Banking Trojan);3;

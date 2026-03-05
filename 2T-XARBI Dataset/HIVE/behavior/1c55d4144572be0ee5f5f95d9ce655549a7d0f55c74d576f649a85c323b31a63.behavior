@@ -1,0 +1,3 @@
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+antiemu_wine;Detects the presence of Wine emulator;3;

@@ -1,0 +1,5 @@
+peid_packer;The executable uses a known packer;1;
+origin_langid;Foreign language identified in PE resource;2;
+creates_exe;Creates executable files on the filesystem;2;
+dropper;Drops a binary and executes it;2;
+exe_appdata;Drops an executable to the user AppData folder;2;

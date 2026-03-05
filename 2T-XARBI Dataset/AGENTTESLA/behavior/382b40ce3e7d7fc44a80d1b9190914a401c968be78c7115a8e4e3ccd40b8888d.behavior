@@ -1,0 +1,9 @@
+checks_debugger;Checks if process is being debugged by a debugger;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+creates_exe;Creates executable files on the filesystem;2;
+dropper;Drops a binary and executes it;2;
+exe_appdata;Drops an executable to the user AppData folder;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+persistence_autorun;Installs itself for autorun at Windows startup;3;
+ransomware_mass_file_delete;Deletes a large number of files from the system indicative of ransomware, wiper malware or system destruction;3;

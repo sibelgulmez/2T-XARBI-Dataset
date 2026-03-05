@@ -1,0 +1,6 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+console_output;Command line console output was observed;1;
+has_wmi;Executes one or more WMI queries;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

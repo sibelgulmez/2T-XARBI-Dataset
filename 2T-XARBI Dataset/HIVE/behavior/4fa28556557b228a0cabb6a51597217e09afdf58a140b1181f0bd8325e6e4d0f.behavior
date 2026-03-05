@@ -1,0 +1,14 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+infostealer_browser;Steals private information from local Internet browsers;2;
+creates_exe;Creates executable files on the filesystem;2;
+suspicious_process;Creates a suspicious process;2;
+exe_appdata;Drops an executable to the user AppData folder;2;
+has_wmi;Executes one or more WMI queries;2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+uses_windows_utilities;Uses Windows utilities for basic Windows functionality;2;
+deletes_executed_files;Deletes executed files from disk;3;
+antiemu_wine;Detects the presence of Wine emulator;3;

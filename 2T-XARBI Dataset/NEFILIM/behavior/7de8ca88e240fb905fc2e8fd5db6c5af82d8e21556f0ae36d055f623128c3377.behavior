@@ -1,0 +1,9 @@
+checks_debugger;Checks if process is being debugged by a debugger;1;
+raises_exception;One or more processes crashed;1;
+creates_exe;Creates executable files on the filesystem;2;
+antisandbox_cuckoo_files;Attempts to detect Cuckoo Sandbox through the presence of a file;3;
+ransomware_extensions;Appends a known multi-family ransomware file extension to files that have been encrypted;3;
+ransomware_message;Writes a potential ransom message to disk;3;
+ransomware_file_moves;Performs 3170 file moves indicative of a ransomware file encryption process;6;
+ransomware_appends_extensions;Appends a new file extension or content to 3170 files indicative of a ransomware file encryption process;6;
+ransomware_dropped_files;Drops 3081 unknown file mime types indicative of ransomware writing encrypted files back to disk;6;

@@ -1,0 +1,3 @@
+has_pdb;This executable has a PDB path;1;
+creates_exe;Creates executable files on the filesystem;2;
+creates_shortcut;Creates a shortcut to an executable file;2;

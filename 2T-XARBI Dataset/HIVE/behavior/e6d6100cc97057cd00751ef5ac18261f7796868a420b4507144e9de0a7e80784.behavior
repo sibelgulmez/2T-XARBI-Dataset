@@ -1,0 +1,3 @@
+nolookup_communication;Communicates with host for which no DNS query was performed;3;
+antiemu_wine;Detects the presence of Wine emulator;3;
+dead_host;Connects to an IP address that is no longer responding to requests (legitimate services will remain up-and-running usually);5;

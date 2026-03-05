@@ -1,0 +1,4 @@
+console_output;Command line console output was observed;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+exe_appdata;Drops an executable to the user AppData folder;2;
+ransomware_dropped_files;Drops 2363 unknown file mime types indicative of ransomware writing encrypted files back to disk;6;

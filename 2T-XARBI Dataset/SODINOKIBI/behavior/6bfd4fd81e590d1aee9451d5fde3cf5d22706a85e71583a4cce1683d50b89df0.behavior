@@ -1,0 +1,4 @@
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+creates_exe;Creates executable files on the filesystem;2;
+dropper;Drops a binary and executes it;2;
+persistence_autorun;Installs itself for autorun at Windows startup;3;

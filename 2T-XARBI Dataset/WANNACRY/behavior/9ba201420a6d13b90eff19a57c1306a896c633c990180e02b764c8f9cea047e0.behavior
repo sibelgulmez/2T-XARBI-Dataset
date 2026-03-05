@@ -1,0 +1,5 @@
+peid_packer;The executable uses a known packer;1;
+creates_service;Creates a service;2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+persistence_autorun;Installs itself for autorun at Windows startup;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;

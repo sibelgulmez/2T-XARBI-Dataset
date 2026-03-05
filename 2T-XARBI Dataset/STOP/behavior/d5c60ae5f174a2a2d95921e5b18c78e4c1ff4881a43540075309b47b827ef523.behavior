@@ -1,0 +1,18 @@
+antivm_queries_computername;Queries for the computername;1;
+has_pdb;This executable has a PDB path;1;
+suspicious_tld;Resolves a suspicious Top Level Domain (TLD);2;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+creates_doc;Creates (office) documents on the filesystem;2;
+creates_exe;Creates executable files on the filesystem;2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+memdump_urls;Potentially malicious URLs were found in the process memory dump;2;
+persistence_autorun;Installs itself for autorun at Windows startup;3;
+antisandbox_cuckoo_files;Attempts to detect Cuckoo Sandbox through the presence of a file;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;
+ransomware_extensions;Appends a known multi-family ransomware file extension to files that have been encrypted;3;
+ransomware_message;Writes a potential ransom message to disk;3;
+injection_resumethread;Resumed a suspended thread in a remote process potentially indicative of process injection;3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;
+network_icmp;Generates some ICMP traffic;4;
+ransomware_file_moves;Performs 2723 file moves indicative of a ransomware file encryption process;6;
+ransomware_appends_extensions;Appends a new file extension or content to 2723 files indicative of a ransomware file encryption process;6;

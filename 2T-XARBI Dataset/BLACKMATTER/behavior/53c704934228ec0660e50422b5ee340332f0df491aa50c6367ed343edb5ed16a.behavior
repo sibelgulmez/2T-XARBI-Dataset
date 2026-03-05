@@ -1,0 +1,8 @@
+antivm_queries_computername;Queries for the computername;1;
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+stealth_window;A process created a hidden window;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+modifies_desktop_wallpaper;Attempts to modify desktop wallpaper;3;

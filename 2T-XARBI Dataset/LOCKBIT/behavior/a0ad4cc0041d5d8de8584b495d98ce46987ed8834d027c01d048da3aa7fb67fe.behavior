@@ -1,0 +1,16 @@
+has_pdb;This executable has a PDB path;1;
+locates_browser;Tries to locate where the browsers are installed;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_unknown_resource_name;The file contains an unknown PE resource name possibly indicative of a packer;1;
+network_bind;Starts servers listening;2;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+infostealer_browser;Steals private information from local Internet browsers;2;
+creates_exe;Creates executable files on the filesystem;2;
+suspicious_process;Creates a suspicious process;2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+modifies_certificates;Attempts to create or modify system certificates;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

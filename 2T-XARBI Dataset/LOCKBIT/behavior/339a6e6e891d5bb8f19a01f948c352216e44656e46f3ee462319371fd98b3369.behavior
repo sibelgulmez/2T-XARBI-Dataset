@@ -1,0 +1,10 @@
+antivm_queries_computername;Queries for the computername;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+has_wmi;Executes one or more WMI queries;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+antiav_servicestop;Attempts to stop active services;3;
+persistence_autorun;Installs itself for autorun at Windows startup;3;
+antisandbox_cuckoo_files;Attempts to detect Cuckoo Sandbox through the presence of a file;3;
+ransomware_message;Writes a potential ransom message to disk;3;
+network_icmp;Generates some ICMP traffic;4;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

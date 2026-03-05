@@ -1,0 +1,11 @@
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antivm_disk_size;Queries the disk size which could be used to detect virtual machine with small fixed size or dynamic allocation;2;
+injection_process_search;Searches running processes potentially to identify processes for sandbox evasion, code injection or memory dumping;2;
+memdump_urls;Potentially malicious URLs were found in the process memory dump;2;
+allocates_execute_remote_process;Allocates execute permission to another process indicative of possible code injection;3;
+injection_write_memory;Potential code injection by writing to the memory of another process;3;
+injection_write_memory_exe;Code injection by writing an executable or DLL to the memory of another process;3;
+injection_ntsetcontextthread;Used NtSetContextThread to modify a thread in a remote process indicative of process injection;3;
+injection_resumethread;Resumed a suspended thread in a remote process potentially indicative of process injection;3;
+injection_runpe;Executed a process and injected code into it, probably while unpacking;5;

@@ -1,0 +1,4 @@
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+creates_service;Creates a service;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

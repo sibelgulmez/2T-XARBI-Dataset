@@ -1,0 +1,9 @@
+antivm_queries_computername;Queries for the computername;1;
+has_pdb;This executable has a PDB path;1;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+persistence_autorun;Installs itself for autorun at Windows startup;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;
+injection_resumethread;Resumed a suspended thread in a remote process potentially indicative of process injection;3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;
+network_icmp;Generates some ICMP traffic;4;

@@ -1,0 +1,9 @@
+raises_exception;One or more processes crashed;1;
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+allocates_execute_remote_process;Allocates execute permission to another process indicative of possible code injection;3;
+injection_write_memory;Potential code injection by writing to the memory of another process;3;
+injection_write_memory_exe;Code injection by writing an executable or DLL to the memory of another process;3;
+injection_ntsetcontextthread;Used NtSetContextThread to modify a thread in a remote process indicative of process injection;3;
+injection_resumethread;Resumed a suspended thread in a remote process potentially indicative of process injection;3;
+injection_runpe;Executed a process and injected code into it, probably while unpacking;5;

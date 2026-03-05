@@ -1,0 +1,3 @@
+console_output;Command line console output was observed;1;
+nolookup_communication;Communicates with host for which no DNS query was performed;3;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

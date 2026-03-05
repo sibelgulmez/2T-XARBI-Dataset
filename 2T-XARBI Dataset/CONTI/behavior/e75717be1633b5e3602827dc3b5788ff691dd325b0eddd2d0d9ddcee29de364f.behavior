@@ -1,0 +1,3 @@
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+raises_exception;One or more processes crashed;1;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

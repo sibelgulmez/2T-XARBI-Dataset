@@ -1,0 +1,11 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+terminates_remote_process;Terminates another process;2;
+antiav_servicestop;Attempts to stop active services;3;
+antisandbox_idletime;Looks for the Windows Idle Time to determine the uptime;3;
+process_interest;Expresses interest in specific running processes;3;
+recon_beacon;A process performed obfuscation on information about the computer or sent it to a remote location indicative of CnC Traffic/Preperations.;3;
+network_icmp;Generates some ICMP traffic;4;

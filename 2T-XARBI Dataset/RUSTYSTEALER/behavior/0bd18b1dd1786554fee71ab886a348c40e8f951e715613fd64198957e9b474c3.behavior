@@ -1,0 +1,3 @@
+has_pdb;This executable has a PDB path;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+raises_exception;One or more processes crashed;1;

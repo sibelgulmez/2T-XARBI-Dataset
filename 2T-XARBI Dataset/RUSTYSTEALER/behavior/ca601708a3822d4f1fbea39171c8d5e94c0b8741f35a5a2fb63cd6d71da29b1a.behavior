@@ -1,0 +1,4 @@
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+creates_service;Created a service where a service was also not started;3;

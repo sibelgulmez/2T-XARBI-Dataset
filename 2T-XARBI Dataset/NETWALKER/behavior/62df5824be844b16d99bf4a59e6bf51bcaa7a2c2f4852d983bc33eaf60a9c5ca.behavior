@@ -1,0 +1,2 @@
+checks_debugger;Checks if process is being debugged by a debugger;1;
+pe_unknown_resource_name;The file contains an unknown PE resource name possibly indicative of a packer;1;

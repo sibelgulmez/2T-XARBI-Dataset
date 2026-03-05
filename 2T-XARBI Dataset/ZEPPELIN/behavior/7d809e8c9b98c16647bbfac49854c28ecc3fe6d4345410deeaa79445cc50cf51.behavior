@@ -1,0 +1,6 @@
+has_pdb;This executable has a PDB path;1;
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+recon_checkip;Looks up the external IP address;2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;

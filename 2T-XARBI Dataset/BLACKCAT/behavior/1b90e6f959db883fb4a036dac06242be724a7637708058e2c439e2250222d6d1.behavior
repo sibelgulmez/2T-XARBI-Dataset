@@ -1,0 +1,2 @@
+has_pdb;This executable has a PDB path;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;

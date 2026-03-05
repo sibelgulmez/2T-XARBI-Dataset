@@ -1,0 +1,18 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+generates_crypto_key;Uses Windows APIs to generate a cryptographic key;1;
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+suspicious_process;Creates a suspicious process;2;
+has_wmi;Executes one or more WMI queries;2;
+stealth_window;A process created a hidden window;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+terminates_remote_process;Terminates another process;2;
+uses_windows_utilities;Uses Windows utilities for basic Windows functionality;2;
+process_martian;One or more non-safelisted processes were created;3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;
+suspicious_powershell;Creates a suspicious Powershell process;3;
+suspicious_write_exe;The process powershell.exe wrote an executable file to disk;3;
+wmi_service;Executes one or more WMI queries which can be used to create or modify services;3;

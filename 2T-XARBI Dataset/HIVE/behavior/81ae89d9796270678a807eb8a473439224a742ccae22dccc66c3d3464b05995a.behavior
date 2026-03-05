@@ -1,0 +1,8 @@
+raises_exception;One or more processes crashed;1;
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+allocates_execute_remote_process;Allocates execute permission to another process indicative of possible code injection;3;
+injection_modifies_memory;Manipulates memory of a non-child process indicative of process injection;3;
+antiemu_wine;Detects the presence of Wine emulator;3;

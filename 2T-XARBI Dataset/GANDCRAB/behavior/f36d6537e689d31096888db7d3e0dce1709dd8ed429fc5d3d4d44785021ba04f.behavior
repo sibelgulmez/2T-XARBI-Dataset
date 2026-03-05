@@ -1,0 +1,8 @@
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+pe_unknown_resource_name;The file contains an unknown PE resource name possibly indicative of a packer;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+injection_process_search;Searches running processes potentially to identify processes for sandbox evasion, code injection or memory dumping;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+process_interest;Expresses interest in specific running processes;3;
+antiemu_wine;Detects the presence of Wine emulator;3;

@@ -1,0 +1,3 @@
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+infostealer_bitcoin;Attempts to access Bitcoin/ALTCoin wallets;3;
+ransomware_extensions;Appends a known CryptoMix ransomware file extension to files that have been encrypted;3;

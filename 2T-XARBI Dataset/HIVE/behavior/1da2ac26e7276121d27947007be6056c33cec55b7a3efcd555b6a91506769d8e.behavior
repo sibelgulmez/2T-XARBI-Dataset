@@ -1,0 +1,5 @@
+antivm_queries_computername;Queries for the computername;1;
+has_wmi;Executes one or more WMI queries;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+packer_upx;The executable is compressed using UPX;2;
+antiemu_wine;Detects the presence of Wine emulator;3;

@@ -1,0 +1,16 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+generates_crypto_key;Uses Windows APIs to generate a cryptographic key;1;
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+infostealer_browser;Steals private information from local Internet browsers;2;
+recon_checkip;Looks up the external IP address;2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+antisandbox_idletime;Looks for the Windows Idle Time to determine the uptime;3;
+antisandbox_sleep;A process attempted to delay the analysis task.;3;
+infostealer_ftp;Harvests credentials from local FTP client softwares;3;
+infostealer_keylogger;Creates a windows hook that monitors keyboard input (keylogger);3;
+infostealer_mail;Harvests credentials from local email clients;3;

@@ -1,0 +1,15 @@
+antivm_queries_computername;Queries for the computername;1;
+has_pdb;This executable has a PDB path;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+raises_exception;One or more processes crashed;1;
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antivm_disk_size;Queries the disk size which could be used to detect virtual machine with small fixed size or dynamic allocation;2;
+creates_exe;Creates executable files on the filesystem;2;
+exe_appdata;Drops an executable to the user AppData folder;2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+dumped_buffer2;One or more of the buffers contains an embedded PE file;3;
+disables_proxy;Disables proxy possibly for traffic interception;3;
+modifies_certificates;Attempts to create or modify system certificates;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;

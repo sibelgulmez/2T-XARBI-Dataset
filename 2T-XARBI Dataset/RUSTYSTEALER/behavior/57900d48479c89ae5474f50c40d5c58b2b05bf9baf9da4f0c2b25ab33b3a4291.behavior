@@ -1,0 +1,9 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+generates_crypto_key;Uses Windows APIs to generate a cryptographic key;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+suspicious_process;Creates a suspicious process;2;
+moves_self;Moves the original executable to a new location;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;

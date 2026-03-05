@@ -1,0 +1,14 @@
+antivm_queries_computername;Queries for the computername;1;
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+has_pdb;This executable has a PDB path;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antisandbox_foregroundwindows;Checks whether any human activity is being performed by constantly checking whether the foreground window changed;2;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+antivm_disk_size;Queries the disk size which could be used to detect virtual machine with small fixed size or dynamic allocation;2;
+creates_exe;Creates executable files on the filesystem;2;
+creates_shortcut;Creates a shortcut to an executable file;2;
+dropper;Drops a binary and executes it;2;
+exe_appdata;Drops an executable to the user AppData folder;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+icepoint;Creates known IcePoint RAT files, registry keys and/or mutexes;3;

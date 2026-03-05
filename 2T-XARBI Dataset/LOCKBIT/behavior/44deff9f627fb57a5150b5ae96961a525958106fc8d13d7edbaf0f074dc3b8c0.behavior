@@ -1,0 +1,6 @@
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+origin_langid;Foreign language identified in PE resource;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+network_icmp;Generates some ICMP traffic;4;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

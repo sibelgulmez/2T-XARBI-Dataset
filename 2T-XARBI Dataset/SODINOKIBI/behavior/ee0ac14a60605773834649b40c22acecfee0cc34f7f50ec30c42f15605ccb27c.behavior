@@ -1,0 +1,6 @@
+checks_debugger;Checks if process is being debugged by a debugger;1;
+console_output;Command line console output was observed;1;
+has_pdb;This executable has a PDB path;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+network_icmp;Generates some ICMP traffic;4;

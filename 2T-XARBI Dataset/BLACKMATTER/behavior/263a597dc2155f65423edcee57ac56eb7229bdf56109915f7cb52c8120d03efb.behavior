@@ -1,0 +1,4 @@
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+nolookup_communication;Communicates with host for which no DNS query was performed;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;
+dead_host;Connects to an IP address that is no longer responding to requests (legitimate services will remain up-and-running usually);5;

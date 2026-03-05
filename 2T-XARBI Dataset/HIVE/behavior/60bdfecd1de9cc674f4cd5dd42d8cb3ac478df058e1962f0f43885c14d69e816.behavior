@@ -1,0 +1,2 @@
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+antiemu_wine;Detects the presence of Wine emulator;3;

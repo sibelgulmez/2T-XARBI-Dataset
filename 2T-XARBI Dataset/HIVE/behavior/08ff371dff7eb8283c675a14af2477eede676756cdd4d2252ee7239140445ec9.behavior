@@ -1,0 +1,10 @@
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+injection_modifies_memory;Manipulates memory of a non-child process indicative of process injection;3;
+injection_write_memory;Potential code injection by writing to the memory of another process;3;
+injection_resumethread;Resumed a suspended thread in a remote process potentially indicative of process injection;3;
+stealth_system_procname;Created a process named as a common system process;3;
+antiemu_wine;Detects the presence of Wine emulator;3;
+injection_runpe;Executed a process and injected code into it, probably while unpacking;5;

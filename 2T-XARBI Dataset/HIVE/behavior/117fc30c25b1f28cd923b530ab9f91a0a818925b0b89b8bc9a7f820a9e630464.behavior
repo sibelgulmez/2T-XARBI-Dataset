@@ -1,0 +1,10 @@
+console_output;Command line console output was observed;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+suspicious_process;Creates a suspicious process;2;
+stealth_window;A process created a hidden window;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+antisandbox_idletime;Looks for the Windows Idle Time to determine the uptime;3;
+process_interest;Expresses interest in specific running processes;3;
+ransomware_shadowcopy;Removes the Shadow Copy to avoid recovery of the system;3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;
+antiemu_wine;Detects the presence of Wine emulator;3;

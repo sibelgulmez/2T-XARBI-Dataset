@@ -1,0 +1,3 @@
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+injection_process_search;Searches running processes potentially to identify processes for sandbox evasion, code injection or memory dumping;2;

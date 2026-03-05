@@ -1,0 +1,9 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+has_pdb;This executable has a PDB path;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+raises_exception;One or more processes crashed;1;
+antivm_disk_size;Queries the disk size which could be used to detect virtual machine with small fixed size or dynamic allocation;2;
+injection_process_search;Searches running processes potentially to identify processes for sandbox evasion, code injection or memory dumping;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+antiav_servicestop;Attempts to stop active services;3;

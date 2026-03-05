@@ -1,0 +1,16 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+console_output;Command line console output was observed;1;
+generates_crypto_key;Uses Windows APIs to generate a cryptographic key;1;
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antisandbox_foregroundwindows;Checks whether any human activity is being performed by constantly checking whether the foreground window changed;2;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+creates_exe;Creates executable files on the filesystem;2;
+creates_shortcut;Creates a shortcut to an executable file;2;
+suspicious_process;Creates a suspicious process;2;
+stealth_window;A process created a hidden window;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+suspicious_powershell;Creates a suspicious Powershell process;3;

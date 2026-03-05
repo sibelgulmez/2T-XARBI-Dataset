@@ -1,0 +1,5 @@
+console_output;Command line console output was observed;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+raises_exception;One or more processes crashed;1;
+antivm_disk_size;Queries the disk size which could be used to detect virtual machine with small fixed size or dynamic allocation;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

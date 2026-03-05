@@ -1,0 +1,4 @@
+antivm_queries_computername;Queries for the computername;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+antisandbox_cuckoo_files;Attempts to detect Cuckoo Sandbox through the presence of a file;3;
+rat_hupigon;Creates known Hupigon files, registry keys and/or mutexes;3;

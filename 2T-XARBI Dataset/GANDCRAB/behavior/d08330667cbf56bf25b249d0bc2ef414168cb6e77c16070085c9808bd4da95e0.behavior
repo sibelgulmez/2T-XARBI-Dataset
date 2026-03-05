@@ -1,0 +1,9 @@
+antivm_queries_computername;Queries for the computername;1;
+generates_crypto_key;Uses Windows APIs to generate a cryptographic key;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+antivm_disk_size;Queries the disk size which could be used to detect virtual machine with small fixed size or dynamic allocation;2;
+creates_exe;Creates executable files on the filesystem;2;
+exe_appdata;Drops an executable to the user AppData folder;2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+antivm_generic_cpu;Checks the CPU name from registry, possibly for anti-virtualization;3;
+persistence_autorun;Installs itself for autorun at Windows startup;3;

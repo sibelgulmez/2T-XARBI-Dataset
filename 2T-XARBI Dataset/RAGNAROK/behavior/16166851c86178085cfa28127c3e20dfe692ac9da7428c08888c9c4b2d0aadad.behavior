@@ -1,0 +1,17 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+recon_fingerprint;Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate);1;
+suspicious_process;Creates a suspicious process;2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+uses_windows_utilities;Uses Windows utilities for basic Windows functionality;2;
+nolookup_communication;Communicates with host for which no DNS query was performed;3;
+bypass_firewall;Operates on local firewall's policies and settings;3;
+antisandbox_cuckoo_files;Attempts to detect Cuckoo Sandbox through the presence of a file;3;
+modifies_boot_config;Modifies boot configuration settings;3;
+ransomware_bcdedit;Runs bcdedit commands specific to ransomware;3;
+ransomware_message;Writes a potential ransom message to disk;3;
+ransomware_shadowcopy;Removes the Shadow Copy to avoid recovery of the system;3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;
+banker_zeus_p2p;Zeus P2P (Banking Trojan);3;
+dead_host;Connects to an IP address that is no longer responding to requests (legitimate services will remain up-and-running usually);5;

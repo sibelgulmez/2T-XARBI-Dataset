@@ -1,0 +1,6 @@
+checks_debugger;Checks if process is being debugged by a debugger;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+peid_packer;The executable uses a known packer;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+disables_proxy;Disables proxy possibly for traffic interception;3;

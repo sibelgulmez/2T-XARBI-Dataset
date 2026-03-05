@@ -1,0 +1,3 @@
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+network_irc;Connects to an IRC server, possibly part of a botnet;3;

@@ -1,0 +1,13 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+has_pdb;This executable has a PDB path;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_unknown_resource_name;The file contains an unknown PE resource name possibly indicative of a packer;1;
+antisandbox_sleep;A process attempted to delay the analysis task.;2;
+origin_langid;Foreign language identified in PE resource;2;
+queries_programs;Queries for potentially installed applications;2;
+antivm_generic_bios;Checks the version of Bios, possibly for anti-virtualization;3;
+persistence_autorun;Installs itself for autorun at Windows startup;3;
+recon_programs;Collects information about installed applications;3;
+installs_appinit;Installs itself in AppInit to inject into new processes;3;
+antivm_firmware;Detects Virtual Machines through their custom firmware;3;

@@ -1,0 +1,5 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+antisandbox_idletime;Looks for the Windows Idle Time to determine the uptime;3;
+network_icmp;Generates some ICMP traffic;4;

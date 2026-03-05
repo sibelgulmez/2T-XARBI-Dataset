@@ -1,0 +1,8 @@
+console_output;Command line console output was observed;1;
+has_pdb;This executable has a PDB path;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+suspicious_process;Creates a suspicious process;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+process_interest;Expresses interest in specific running processes;2;
+terminates_remote_process;Terminates another process;2;
+suspicious_powershell;Creates a suspicious Powershell process;3;

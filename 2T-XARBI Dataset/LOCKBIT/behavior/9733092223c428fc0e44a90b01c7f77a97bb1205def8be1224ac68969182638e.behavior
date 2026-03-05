@@ -1,0 +1,10 @@
+antivm_queries_computername;Queries for the computername;1;
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+creates_exe;Creates executable files on the filesystem;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+packer_upx;The executable is compressed using UPX;2;
+network_irc;Connects to an IRC server, possibly part of a botnet;3;
+network_icmp;Generates some ICMP traffic;4;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

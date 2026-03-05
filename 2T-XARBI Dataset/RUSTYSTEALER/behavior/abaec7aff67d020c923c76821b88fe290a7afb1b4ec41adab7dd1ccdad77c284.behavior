@@ -1,0 +1,7 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+raises_exception;One or more processes crashed;1;
+exe_appdata;Drops an executable to the user AppData folder;2;
+has_wmi;Executes one or more WMI queries;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+uses_windows_utilities;Uses Windows utilities for basic Windows functionality;2;

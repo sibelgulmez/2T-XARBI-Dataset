@@ -1,0 +1,6 @@
+console_output;Command line console output was observed;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+uses_windows_utilities;Uses Windows utilities for basic Windows functionality;2;
+antiav_servicestop;Attempts to stop active services;3;
+persistence_autorun;Installs itself for autorun at Windows startup;3;
+network_icmp;Generates some ICMP traffic;4;

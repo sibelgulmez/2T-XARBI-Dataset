@@ -1,0 +1,2 @@
+has_pdb;This executable has a PDB path;1;
+raises_exception;One or more processes crashed;1;

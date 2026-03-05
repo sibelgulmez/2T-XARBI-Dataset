@@ -1,0 +1,4 @@
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+ransomware_message;Writes a potential ransom message to disk;3;
+antiemu_wine;Detects the presence of Wine emulator;3;
+ransomware_dropped_files;Drops 263 unknown file mime types indicative of ransomware writing encrypted files back to disk;4;

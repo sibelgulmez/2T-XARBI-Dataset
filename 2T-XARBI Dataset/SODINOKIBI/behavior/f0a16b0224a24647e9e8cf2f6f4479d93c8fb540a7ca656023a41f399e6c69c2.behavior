@@ -1,0 +1,2 @@
+has_pdb;This executable has a PDB path;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;

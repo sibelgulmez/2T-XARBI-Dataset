@@ -1,0 +1,2 @@
+network_icmp;Generates some ICMP traffic;4;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);7;

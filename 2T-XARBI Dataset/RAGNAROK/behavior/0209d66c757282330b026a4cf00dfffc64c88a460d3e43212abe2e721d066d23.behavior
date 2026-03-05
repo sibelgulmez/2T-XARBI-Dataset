@@ -1,0 +1,3 @@
+raises_exception;One or more processes crashed;1;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

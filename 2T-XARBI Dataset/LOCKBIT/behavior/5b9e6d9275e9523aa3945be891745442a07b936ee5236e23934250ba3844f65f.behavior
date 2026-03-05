@@ -1,0 +1,3 @@
+has_pdb;This executable has a PDB path;1;
+pe_unknown_resource_name;The file contains an unknown PE resource name possibly indicative of a packer;1;
+raises_exception;One or more processes crashed;1;

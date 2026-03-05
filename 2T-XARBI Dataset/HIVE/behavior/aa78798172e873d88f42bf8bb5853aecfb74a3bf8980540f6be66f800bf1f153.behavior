@@ -1,0 +1,12 @@
+antivm_queries_computername;Queries for the computername;1;
+checks_debugger;Checks if process is being debugged by a debugger;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+creates_exe;Creates executable files on the filesystem;2;
+dropper;Drops a binary and executes it;2;
+exe_appdata;Drops an executable to the user AppData folder;2;
+has_wmi;Executes one or more WMI queries;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+network_irc;Connects to an IRC server, possibly part of a botnet;3;
+antiemu_wine;Detects the presence of Wine emulator;3;
+network_icmp;Generates some ICMP traffic;4;
+ransomware_dropped_files;Drops 1540 unknown file mime types indicative of ransomware writing encrypted files back to disk;6;

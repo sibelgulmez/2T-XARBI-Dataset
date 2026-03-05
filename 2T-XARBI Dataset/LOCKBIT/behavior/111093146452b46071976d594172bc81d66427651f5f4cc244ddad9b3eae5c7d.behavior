@@ -1,0 +1,6 @@
+has_pdb;This executable has a PDB path;1;
+pe_unknown_resource_name;The file contains an unknown PE resource name possibly indicative of a packer;1;
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+antisandbox_unhook;Tries to unhook Windows functions monitored by Cuckoo;3;

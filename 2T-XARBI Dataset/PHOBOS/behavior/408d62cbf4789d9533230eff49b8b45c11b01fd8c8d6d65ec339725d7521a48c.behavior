@@ -1,0 +1,3 @@
+has_pdb;This executable has a PDB path;1;
+origin_langid;Foreign language identified in PE resource;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

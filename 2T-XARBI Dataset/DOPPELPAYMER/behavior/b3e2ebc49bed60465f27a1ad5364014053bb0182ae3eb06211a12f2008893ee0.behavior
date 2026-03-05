@@ -1,0 +1,4 @@
+peid_packer;The executable uses a known packer;1;
+raises_exception;One or more processes crashed;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

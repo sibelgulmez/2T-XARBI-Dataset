@@ -1,0 +1,8 @@
+antivm_queries_computername;Queries for the computername;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+protection_rx;Changes read-write memory protection to read-execute (probably to avoid detection when setting all RWX flags at the same time);2;
+antivm_network_adapters;Checks adapter addresses which can be used to detect virtual network interfaces;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+antisandbox_sleep;A process attempted to delay the analysis task.;3;
+modifies_proxy_wpad;Sets or modifies WPAD proxy autoconfiguration file for traffic interception;3;

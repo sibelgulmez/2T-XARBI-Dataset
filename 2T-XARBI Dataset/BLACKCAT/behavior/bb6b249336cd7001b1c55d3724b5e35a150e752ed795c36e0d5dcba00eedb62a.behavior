@@ -1,0 +1,2 @@
+console_output;Command line console output was observed;1;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;

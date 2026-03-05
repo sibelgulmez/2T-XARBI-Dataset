@@ -1,0 +1,11 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+creates_exe;Creates executable files on the filesystem;2;
+creates_hidden_file;Creates hidden or system file;2;
+creates_service;Creates a service;2;
+stealth_window;A process created a hidden window;2;
+packer_entropy;The binary likely contains encrypted or compressed data indicative of a packer;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+uses_windows_utilities;Uses Windows utilities for basic Windows functionality;2;
+persistence_ads;Creates an Alternate Data Stream (ADS);3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;

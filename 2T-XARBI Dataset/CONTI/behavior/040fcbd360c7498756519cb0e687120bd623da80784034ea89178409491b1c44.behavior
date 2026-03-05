@@ -1,0 +1,8 @@
+antivm_queries_computername;Queries for the computername;1;
+console_output;Command line console output was observed;1;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+network_irc;Connects to an IRC server, possibly part of a botnet;3;
+ransomware_shadowcopy;Removes the Shadow Copy to avoid recovery of the system;3;
+suspicious_command_tools;Uses suspicious command line tools or Windows utilities;3;
+network_icmp;Generates some ICMP traffic;4;
+dead_host;Connects to IP addresses that are no longer responding to requests (legitimate services will remain up-and-running  usually);8;

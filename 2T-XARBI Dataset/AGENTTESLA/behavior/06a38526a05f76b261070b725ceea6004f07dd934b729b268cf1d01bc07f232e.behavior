@@ -1,0 +1,4 @@
+checks_debugger;Checks if process is being debugged by a debugger;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+ransomware_mass_file_delete;Deletes a large number of files from the system indicative of ransomware, wiper malware or system destruction;3;

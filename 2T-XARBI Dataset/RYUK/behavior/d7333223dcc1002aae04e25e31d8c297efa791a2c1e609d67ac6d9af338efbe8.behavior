@@ -1,0 +1,8 @@
+console_output;Command line console output was observed;1;
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+creates_shortcut;Creates a shortcut to an executable file;2;
+network_irc;Connects to an IRC server, possibly part of a botnet;3;
+antisandbox_cuckoo_files;Attempts to detect Cuckoo Sandbox through the presence of a file;3;
+ransomware_extensions;Appends a known multi-family ransomware file extension to files that have been encrypted;3;
+network_icmp;Generates some ICMP traffic;4;

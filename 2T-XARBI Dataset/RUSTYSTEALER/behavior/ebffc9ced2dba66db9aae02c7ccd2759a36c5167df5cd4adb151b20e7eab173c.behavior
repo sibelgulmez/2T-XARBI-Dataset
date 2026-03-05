@@ -1,0 +1,4 @@
+console_output;Command line console output was observed;1;
+suspicious_process;Creates a suspicious process;2;
+modifies_boot_config;Modifies boot configuration settings;3;
+ransomware_bcdedit;Runs bcdedit commands specific to ransomware;3;

@@ -1,0 +1,11 @@
+antivm_queries_computername;Queries for the computername;1;
+raises_exception;One or more processes crashed;1;
+infostealer_browser;Steals private information from local Internet browsers;2;
+privilege_luid_check;Checks for the Locally Unique Identifier on the system for a suspicious privilege;2;
+nolookup_communication;Communicates with host for which no DNS query was performed;3;
+antisandbox_idletime;Looks for the Windows Idle Time to determine the uptime;3;
+infostealer_ftp;Harvests credentials from local FTP client softwares;3;
+process_interest;Expresses interest in specific running processes;3;
+ransomware_extensions;Appends a known multi-family ransomware file extension to files that have been encrypted;3;
+antiemu_wine;Detects the presence of Wine emulator;3;
+dead_host;Connects to an IP address that is no longer responding to requests (legitimate services will remain up-and-running usually);5;

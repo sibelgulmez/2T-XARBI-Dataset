@@ -1,0 +1,9 @@
+antivm_memory_available;Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available;1;
+pe_features;The executable contains unknown PE section names indicative of a packer (could be a false positive);1;
+raises_exception;One or more processes crashed;1;
+dumped_buffer;One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.;2;
+allocates_rwx;Allocates read-write-execute memory (usually to unpack itself);2;
+creates_exe;Creates executable files on the filesystem;2;
+exe_appdata;Drops an executable to the user AppData folder;2;
+dumped_buffer2;One or more of the buffers contains an embedded PE file;3;
+injection_ntsetcontextthread;Used NtSetContextThread to modify a thread in a remote process indicative of process injection;3;
